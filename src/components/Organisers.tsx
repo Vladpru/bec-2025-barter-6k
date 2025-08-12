@@ -12,21 +12,21 @@
         <div className="container mb-20 relative 4xl:mb-40">
           <h1 className="text-center text-2xl 700px:text-4xl text-bec font-black mb-10 uppercase 3xl:text-[42px] 4xl:text-5xl">Про організаторів події</h1>
           <div className="flex 1060px:justify-around 1060px:flex-row flex-col 1060px:gap-0 700px:gap-20 gap-10 justify-center items-center">
+            <p className='max-w-[500px] 660px:w-full w-[360px] 440px:w-[380px] text-lg 3xl:text-xl 3xl:mt-10 4xl:text-2xl 4xl:max-w-[700px]'>
+              
+              <span className='font-bold'>BEST Lviv (Board of European Students of Technology)</span> – осередок міжнародної неприбуткової громадської організації, який об’єднує студентів технічних спеціальностей. 
+              <br /> <br />
+              Нашою місією є розвиток студентів через обмін знаннями та співпраці компаній, університетів та студентів Європи.
+            </p>
             <div className="">
               <Image
                 src="/images/statistics/best_logo.svg"
                 alt="e"
                 width={300}
                 height={100}
-                className="object-cover 3xl:w-[350px] 4xl:w-[400px] 700px:w-[300px] 620px:w-[250px] w-[200px]"
+                className="object-cover 700px:w-[450px] 620px:w-[250px] w-[200px]"
               />
             </div>
-            <p className='max-w-[600px] 660px:w-full w-[360px] 440px:w-[380px] text-lg 3xl:text-xl 3xl:mt-10 4xl:text-2xl 4xl:max-w-[700px]'>
-              <span className='font-bold'>BEST Lviv (Board of European Students of Technology)</span> – осередок міжнародної неприбуткової
-              громадської організації, який об’єднує студентів технічних спеціальностей. Нашою місією
-              є розвиток студентів через обмін знаннями та співпраці компаній, університетів та 
-              студентів Європи.
-            </p>
           </div>
           <Image
             height={60}

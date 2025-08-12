@@ -10,6 +10,7 @@ import Sponsors from "@/components/Sponsors";
 import Organisers from "@/components/Organisers";
 import { useRef } from "react";
 import Contacts from "@/components/Contacts";
+import Offer from "@/components/Offer";
 
 export default function Home() {
 
@@ -33,7 +34,7 @@ export default function Home() {
       <Categories />
       <WhyBec />
       <Statistics ref={statisticsRef}/>
-      <Propositions ref={sposorRef}/>
+      <Offer />
       <Sponsors />
       <Organisers />
       <Contacts ref={contactsRef}/>
