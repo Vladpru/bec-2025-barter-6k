@@ -13,6 +13,7 @@ const logos = [
   {src: "/images/sponsors/meleto.png", alt: "meleto", link: "https://www.instagram.com/meleto.juice/"},
 ]
 
+
 const Sponsors = () => {
   return (
     <section className="container">

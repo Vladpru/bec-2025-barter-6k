@@ -1,8 +1,55 @@
-import React from 'react'
+import Image from 'next/image'
+import React, { useState } from 'react'
+import OfferDetails from './ui/OfferDetails';
 
 const Offer = () => {
+
+  const offerText = [
+    {title: "Промоція у 2 Instagram Stories", text: "Розміщення інформації про компанію в 2 Instagram-stories на сторінці @best_lviv."},
+    {title: "Фотозвіт та згадка про компанію в постівентному відео:", text: "Після завершення змагань кожна компанія-партнер отримає звітність з усіма фотографіями компанії. Також логотип компанії з’явиться наприкінці відео, що створюється для підсумовування події та буде розміщене на Instagram-сторінці @best_lviv."},
+    {title: "Логотип компанії на бренд-воллі:", text: "Під час події буде розміщений великий банер з логотипами партнерів наших змагань."},
+    {title: "Логотип на сайті події:", text: "Розміщення логотипа компанії на офіційному сайті події."},
+    {title: "Транслювання відеоролика на місці події:", text: "На місці проведення змагань буде транслюватися відео Вашої компанії (до двох хвилин). Відео надає компанія."},
+    {title: "Розміщення банера на місці події:", text: "Упродовж змагань Ви матимете змогу розмістити банер Вашої компанії на місці проведення події. Банер та стійку до нього надає компанія."}
+  ]
+
+  const [isTooltipVisible, setIsTooltipVisible] = useState(false);
+
+  const handleInfoClick = () => {
+    setIsTooltipVisible(!isTooltipVisible);
+  }
+
   return (
-    <div>Offer</div>
+    <div className='my-20'>
+      <h1 className='text-center text-4xl font-bold text-bec'>За Вашу продукцію ми надамо:</h1>
+      <div className="p-8 440px:p-10 mx-auto mt-10 relative w-[360px] 410px:w-[380px] 440px:w-[420px] 580px:w-[540px] 660px:w-[580px] 840px:w-full max-w-[700px] info_bg">
+        <ul>
+          {offerText.map((item, index) => (
+            <li key={index} className="text-base 440px:text-lg 4xl:text-[22px] flex font-extralight justify-start">
+              <Image
+                src="/images/propositions/checkbox-line.svg"
+                alt="participant"
+                width={40}
+                height={40}
+                className="440px:w-[40px] w-[35px]"
+              />
+              <span className='flex items-center'>{item.title}</span>
+            </li>
+          ))}
+        </ul>
+        <div className="absolute top-6 right-4">
+          <span
+            className="flex items-center justify-center text-sm font-bold text-becblack bg-becwhite rounded-full w-5 h-5 4xl:w-7 4xl:h-7 4xl:text-base cursor-pointer hover:scale-125 transition-all ease-in"
+            onClick={handleInfoClick}
+          >
+            i
+          </span>
+        </div>
+        {isTooltipVisible &&
+          <OfferDetails onClose={() => setIsTooltipVisible(false)} text={offerText} />
+        }
+      </div>
+    </div>
   )
 }
 

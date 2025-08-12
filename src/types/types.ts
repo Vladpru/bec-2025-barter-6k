@@ -62,3 +62,13 @@ export interface HeaderProps {
 		sposorRef: React.RefObject<HTMLElement | null>;
 	};
 };
+
+export interface offerDetailsProps {
+	onClose : () => void;
+	text? : Offer[];
+}
+
+type Offer = {
+	title : string;
+	text : string;
+}

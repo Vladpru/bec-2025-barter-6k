@@ -5,7 +5,6 @@ import About from "@/components/About";
 import Categories from "@/components/Categories";
 import WhyBec from "@/components/WhyBec";
 import Statistics from "@/components/Statistics";
-import Propositions from "@/components/Propositions";
 import Sponsors from "@/components/Sponsors";
 import Organisers from "@/components/Organisers";
 import { useRef } from "react";
@@ -24,12 +23,11 @@ export default function Home() {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-
   return (
     <>
       <div className='scroll-m-20' ref={topRef} />
       <Header scrollToSection={scrollToSection} refs={{ topRef, statisticsRef, contactsRef, sposorRef, aboutRef }}/>
-      <Hero scrollToSection={scrollToSection} sposorRef={sposorRef}/>
+      <Hero scrollToSection={scrollToSection} sposorRef={contactsRef}/>
       <About ref={aboutRef}/>
       <Categories />
       <WhyBec />
