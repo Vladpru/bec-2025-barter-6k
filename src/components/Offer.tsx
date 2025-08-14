@@ -20,9 +20,31 @@ const Offer = () => {
   }
 
   return (
-    <div className='my-20'>
-      <h1 className='text-center text-4xl font-bold text-bec'>За Вашу продукцію ми надамо:</h1>
-      <div className="p-8 440px:p-10 mx-auto mt-10 relative w-[360px] 410px:w-[380px] 440px:w-[420px] 580px:w-[540px] 660px:w-[580px] 840px:w-full max-w-[700px] info_bg">
+    <div className='mb-20 mt-20 mb:mt-40'>
+      <div className="relative">
+        <h1 className="mb-20 md:mb-45 text-center text-3xl sm:text-[36px] md:text-[40px] lg:text-[54px] font-bold text-bec">За Вашу продукцію ми надамо:</h1>
+        <Image 
+          width={30}
+          height={30}
+          alt='.'
+          src="/images/offer.svg"
+          className='hidden md:block w-full absolute -top-25 left-0 -z-10'
+        />
+      </div>
+      <div className="
+        p-8 440px:p-10 mx-auto mt-10 relative w-[360px] 410px:w-[380px] 440px:w-[420px] 
+        580px:w-[540px] 660px:w-[580px] 840px:w-full max-w-[700px] info_bg border-2 
+        border-bec
+      ">
+          
+        <div className="absolute h-full top-0 -left-1 w-[5px] bg-bec" />
+        <div className="absolute h-[5px] -top-[3px] -left-1 w-[80px] bg-bec" />
+        <div className="absolute h-[5px] -bottom-[3px] -left-1 w-[80px] bg-bec" />
+        
+        <div className="absolute h-full top-0 -right-1 w-[5px] bg-bec" />
+        <div className="absolute h-[5px] -top-[3px] -right-1 w-[80px] bg-bec" />
+        <div className="absolute h-[5px] -bottom-[3px] -right-1 w-[80px] bg-bec" />
+
         <ul>
           {offerText.map((item, index) => (
             <li key={index} className="text-base 440px:text-lg 4xl:text-[22px] flex font-extralight justify-start">

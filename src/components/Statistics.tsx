@@ -9,9 +9,9 @@ const Statistics = forwardRef<HTMLElement, object>((props, ref) => {
   ];
 
   return (
-    <section className="text-center scroll-m-40" ref={ref}>
+    <section className="text-center scroll-m-40 mt-20" ref={ref}>
       <div className="container px-2 700px:px-0">
-        <h1 className="uppercase font-black text-2xl 700px:text-4xl text-bec mb-10 3xl:text-[42px] 4xl:text-5xl">
+        <h1 className="uppercase font-black text-2xl 700px:text-5xl text-bec mb-10">
           Статистика з соцмереж:
         </h1>
         <div className="relative">
@@ -56,8 +56,8 @@ const Statistics = forwardRef<HTMLElement, object>((props, ref) => {
         </div>
       </div>
 
-      <div className="pt-20 container 4xl:pt-40">
-        <h1 className="uppercase font-black text-2xl 700px:text-4xl text-bec 3xl:text-[42px] 4xl:text-5xl">
+      <div className="pt-15 md:pt-45 container 4xl:pt-55">
+        <h1 className="uppercase font-black text-2xl 700px:text-5xl text-bec ">
           Статистика івенту 2024
         </h1>
         <div className="flex flex-col justify-center 940px:w-full 940px:h-full 940px:flex-row gap-2 mt-0 940px:mt-20 relative items-center">

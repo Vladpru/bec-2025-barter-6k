@@ -17,7 +17,7 @@ const WhyBec = () => {
   return (
     <section className="mt-5 540px:mt-30">
       <div className="container">
-        <h1 className="font-black text-center text-2xl mb-10 700px:mb-15 700px:text-4xl uppercase text-bec 3xl:text-[42px] 4xl:text-5xl">ЧОМУ ВАМ ВАРТО ПІДТРИМАТИ BEC</h1>
+        <h1 className="font-black text-center text-2xl mb-10 700px:mb-15 700px:text-5xl uppercase text-bec">ЧОМУ ВАМ ВАРТО ПІДТРИМАТИ BEC</h1>
         <div className="flex justify-center items-center 1070px:gap-40 gap-6 relative 1070px:flex-row flex-col">
           <Image
             src="/images/whybec/divider-vertical.svg"
@@ -85,8 +85,8 @@ const WhyBec = () => {
             className="absolute top-22 w-[190px] 660px:w-[210px] 660px:top-24 -left-21 1340px:-left-25 1440px:-left-15 -z-1"
           />
         </div>
-        <h1 className="font-black text-center text-2xl 700px:text-4xl uppercase text-bec 3xl:text-[42px] 4xl:text-5xl">Портрет учасника</h1>
-        <div className="flex flex-col 940px:flex-row justify-center items-center gap-5 490px:gap-15 1070px:gap-30 1340px:gap-40 mx-auto 4xl:bg-[length:85%] 1140px:bg-[lenght:80%] 1440px:bg-[length:100%] py-18 700px:py-30 px-25 940px:py-45 940px:px-35 max-h-[1000px]
+        <h1 className="font-black text-center text-2xl 700px:text-5xl uppercase text-bec">Портрет учасника</h1>
+        <div className="flex flex-col 940px:flex-row justify-center items-center gap-5 490px:gap-15 1070px:gap-30 1340px:gap-40 mx-auto 4xl:bg-[length:85%] 1140px:bg-[lenght:80%] 1440px:bg-[length:100%] py-18 700px:py-30 px-25 940px:py-42 940px:px-35 max-h-[1000px]
           bg-[url('/images/whybec/bg-portrait-vert.png')]
           940px:bg-[url('/images/whybec/bg-portrait.png')]
           bg-no-repeat
