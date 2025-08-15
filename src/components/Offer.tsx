@@ -22,13 +22,13 @@ const Offer = () => {
   return (
     <div className='mb-20 mt-20 mb:mt-40'>
       <div className="relative">
-        <h1 className="mb-20 md:mb-45 text-center text-3xl sm:text-[36px] md:text-[40px] lg:text-[54px] font-bold text-bec">За Вашу продукцію ми надамо:</h1>
+        <h1 className="mb-20 md:mb-45 text-center text-3xl sm:text-[36px] md:text-[40px] lg:text-[45px] xl:text-[54px] font-bold text-bec">За Вашу продукцію ми надамо:</h1>
         <Image 
           width={30}
           height={30}
           alt='.'
           src="/images/offer.svg"
-          className='hidden md:block w-full absolute -top-25 left-0 -z-10'
+          className='hidden lg:block w-full absolute -top-20 xl:-top-25 left-0 -z-10'
         />
       </div>
       <div className="

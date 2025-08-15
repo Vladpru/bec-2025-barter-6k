@@ -183,7 +183,7 @@ const Header = ({ scrollToSection, refs }: HeaderProps) => {
           </li>
         </ul>
         <div className="relative aspect-[655/367] w-full 540px:max-w-[270px] xs:max-w-[210px] xs:max-h-[80px] 540px:max-h-[98px] bg-center bg-contain bg-no-repeat bg-[#212121] cursor-pointer header-btn group"
-            onClick={() => handleMenuClick(refs?.sposorRef)}>
+            onClick={() => handleMenuClick(refs?.contactsRef)}>
               <span className="pt-2 absolute inset-0 flex items-center justify-center text-white xs:text-[17px] 540px:text-[20px] font-bold select-none transition-all duration-400 ease-out group-hover:scale-105">
                 СТАТИ ПАРТНЕРОМ
               </span>
