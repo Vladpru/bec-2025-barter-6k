@@ -61,7 +61,7 @@ const Statistics = forwardRef<HTMLElement, object>((props, ref) => {
           Статистика івенту 2024
         </h1>
         <div className="flex flex-col justify-center 940px:w-full 940px:h-full 940px:flex-row gap-2 mt-0 940px:mt-20 relative items-center">
-          <div className="relative flex flex-col pt-[138px] 460px:pt-[100px] 940px:pt-0 w-[380px] 460px:w-[450px] 940px:w-[500px] h-[350px] 4xl:w-[600px] 4xl:h-[450px] font-medium">
+          <div className="relative flex flex-col pt-[68px] 460px:pt-[100px] 940px:pt-0 w-[380px] 460px:w-[450px] 940px:w-[500px] h-[250px] sm:h-[350px] 4xl:w-[600px] 4xl:h-[450px] font-medium">
             <p className="mb-2 text-base 700px:text-lg 4xl:mt-8 4xl:text-xl"><span className="text-bec">300+</span>РЕЄСТРАЦІЙ</p>
             <p className="mb-2 text-base 700px:text-lg 4xl:text-xl"><span className="text-bec">48</span> УЧАСНИКІВ</p>
             <p className="text-base 700px:text-lg 4xl:text-xl"><span className="text-bec">12</span> КОМАНД</p>
@@ -70,7 +70,7 @@ const Statistics = forwardRef<HTMLElement, object>((props, ref) => {
               alt="фон"
               width={40}
               height={40}
-              className="absolute -bottom-14 460px:-bottom-9 940px:bottom-15 left-0 w-full h-full -z-10 4xl:w-650"
+              className="absolute -bottom-9 460px:-bottom-9 940px:bottom-15 left-0 w-full h-full -z-10 4xl:w-650"
             />
           </div>
           <div className="relative flex flex-col w-[380px] 460px:w-[450px] 940px:w-[500px] 4xl:w-[600px] justify-center pt-5 940px:pt-17 4xl:pt-30 ">
@@ -88,7 +88,7 @@ const Statistics = forwardRef<HTMLElement, object>((props, ref) => {
               alt="фон"
               width={90}
               height={40}
-              className="absolute bottom-15 1060px:bottom-18 1060px:right-5 w-full h-[250px] 950px:h-full -z-10"
+              className="absolute bottom-16 sm:bottom-17 1060px:bottom-18 1060px:right-5 w-full h-[250px] 950px:h-full -z-10"
             />
             <p className="text-sm text-gray-300 text-start pt-10 pl-2 4xl:text-base">
               *Компанії-партнери заповнювали форму зворотного зв’язку щодо проведення івенту, наприкінці якої оцінювали загальне враження від заходу.

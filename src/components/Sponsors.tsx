@@ -23,7 +23,7 @@ const Sponsors = () => {
       <div className="flex flex-col gap-8 justify-center items-center px-1">
         <div className="grid grid-cols-3 gap-5 600px:gap-40 max-w-[600px] justify-items-center w-full">
           {logos.slice(0, 3).map((logo, idx) => (
-            <div key={idx} className="w-[140px] h-[50px] 600px:w-[180px] 970px:w-[220px] 600px:h-[70px] 970px:h-[100px] relative transition hover:scale-110 ease-in-out duration-200">
+            <div key={idx} className="w-[130px] sm:w-[140px] h-[50px] 600px:w-[180px] 970px:w-[220px] 600px:h-[70px] 970px:h-[100px] relative transition hover:scale-110 ease-in-out duration-200">
               <a href={logo.link} target="_blank">
                 <Image src={logo.src} alt={logo.alt} fill className="object-contain" />
               </a>
@@ -33,7 +33,7 @@ const Sponsors = () => {
 
         <div className="grid grid-cols-3 gap-5 600px:gap-50 max-w-[800px] justify-items-center w-full">
           {logos.slice(3, 6).map((logo, idx) => (
-            <div key={idx + 3} className="w-[140px] h-[50px] 600px:w-[180px] 970px:w-[220px] 600px:h-[70px] 970px:h-[100px] relative transition hover:scale-110 ease-in-out duration-200">
+            <div key={idx + 3} className="w-[115px] sm:w-[140px] h-[50px] 600px:w-[180px] 970px:w-[220px] 600px:h-[70px] 970px:h-[100px] relative transition hover:scale-110 ease-in-out duration-200">
               <a href={logo.link} target="_blank">
                 <Image src={logo.src} alt={logo.alt} fill className="object-contain" />
               </a>

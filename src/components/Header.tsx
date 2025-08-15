@@ -173,14 +173,6 @@ const Header = ({ scrollToSection, refs }: HeaderProps) => {
               Статистика
             </a>
           </li>
-          <li>
-            <a
-              className="hover:text-white hover:text-shadow-sm/30 hover:text-shadow-white transition-all duration-400 ease-in-out cursor-pointer"
-              onClick={() => handleMenuClick(refs?.contactsRef)}
-            >
-              Контакти
-            </a>
-          </li>
         </ul>
         <div className="relative aspect-[655/367] w-full 540px:max-w-[270px] xs:max-w-[210px] xs:max-h-[80px] 540px:max-h-[98px] bg-center bg-contain bg-no-repeat bg-[#212121] cursor-pointer header-btn group"
             onClick={() => handleMenuClick(refs?.contactsRef)}>

@@ -33,12 +33,12 @@ const WhyBec = () => {
               <p className="text-[12px] 700px:text-[14px] 1340px:text-base leading-relaxed 4xl:text-xl">Підтримка технічної освіти й молоді – це потужний сигнал про активну позицію бізнесу.</p>
             </div>
             <div className="bg-[#645E58] p-3 4xl:p-5 max-w-[270px] 540px:max-w-[300px] 700px:max-w-[500px] 1070px:max-w-[350px] 1160px:max-w-[450px] h-[180px] flex flex-col justify-center 4xl:max-w-[530px] 4xl:h-[260px]">
-              <h2 className="font-bold text-lg 700px:text-xl leading-snug 1160px:text-xl 4xl:text-3xl">Підвищіть впізнаваність Вашої компанії</h2>
+              <h2 className="font-bold text-lg 700px:text-xl leading-snug 1160px:text-xl 4xl:text-3xl uppercase">Підвищіть впізнаваність Вашої компанії</h2>
               <hr className="border-t-2 border-becwhite my-3 4xl:border-t-3"/>
               <p className="text-[12px] 700px:text-[14px] 1340px:text-base leading-relaxed 4xl:text-xl">Таким чином про Вашу продукцію дізнається більша кількість потенційних клієнтів.</p>
             </div>
             <div className="bg-[#645E58] p-3 4xl:p-5 max-w-[270px] 540px:max-w-[300px] 700px:max-w-[500px] 1070px:max-w-[350px] 1160px:max-w-[450px] h-[180px] flex flex-col justify-center 4xl:max-w-[530px] 4xl:h-[260px]">
-              <h2 className="font-bold text-lg 700px:text-xl leading-snug 1160px:text-xl 4xl:text-3xl">ОТРИМАТИ ЕФЕКТИВНИЙ ПІАР</h2>
+              <h2 className="font-bold text-lg 700px:text-xl leading-snug 1160px:text-xl 4xl:text-3xl">ОТРИМАЙТЕ ЕФЕКТИВНИЙ ПІАР</h2>
               <hr className="border-t-2 border-becwhite my-3 4xl:border-t-3"/>
               <p className="text-[12px] 700px:text-[14px] 1340px:text-base leading-relaxed 4xl:text-xl">Так Ви привернете увагу більшої кількості людей з цільової аудиторії.</p>
             </div>

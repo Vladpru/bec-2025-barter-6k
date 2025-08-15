@@ -20,7 +20,7 @@ const Offer = () => {
   }
 
   return (
-    <div className='mb-20 mt-20 mb:mt-40'>
+    <div className='mb-20 mt-20 lg:mt-40'>
       <div className="relative">
         <h1 className="mb-20 md:mb-45 text-center text-3xl sm:text-[36px] md:text-[40px] lg:text-[45px] xl:text-[54px] font-bold text-bec">За Вашу продукцію ми надамо:</h1>
         <Image 
