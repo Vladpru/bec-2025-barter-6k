@@ -28,12 +28,12 @@ const Offer = () => {
           height={30}
           alt='.'
           src="/images/offer.svg"
-          className='hidden lg:block w-full absolute -top-20 xl:-top-25 left-0 -z-10'
+          className='hidden lg:block w-full absolute -top-20 xl:-top-25 2xl:-top-30 3xl:-top-20 left-0 -z-10'
         />
       </div>
       <div className="
         p-8 440px:p-10 mx-auto mt-10 relative w-[360px] 410px:w-[380px] 440px:w-[420px] 
-        580px:w-[540px] 660px:w-[580px] 840px:w-full max-w-[700px] info_bg border-2 
+        580px:w-[540px] 660px:w-[580px] 840px:w-full max-w-[700px] 2xl:max-w-[750px] info_bg border-2 
         border-bec
       ">
           
