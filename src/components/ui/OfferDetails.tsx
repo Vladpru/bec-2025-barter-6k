@@ -1,11 +1,5 @@
 import { useRef, useEffect, useState } from "react";
 import { offerDetailsProps } from "@/types/types";
-import { Audiowide } from "next/font/google";
-
-const awide = Audiowide({
-  weight: ['400'],
-  subsets: ['latin'],
-});
 
 const OfferDetails = ({ onClose, text }: offerDetailsProps) => {
   const modalRef = useRef<HTMLDivElement>(null);
