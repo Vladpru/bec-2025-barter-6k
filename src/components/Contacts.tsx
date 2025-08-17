@@ -1,12 +1,6 @@
 import Image from "next/image";
 import { forwardRef } from "react";
-import { Play } from "next/font/google";
 import Link from "next/link";
-
-const play = Play({
-  weight: ['700'],
-  subsets: ['latin'],
-});
 
 const Contacts = forwardRef<HTMLDivElement, object>((props, ref) => {
   const teamMembers = [
