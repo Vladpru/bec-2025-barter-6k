@@ -5,12 +5,11 @@ import OfferDetails from './ui/OfferDetails';
 const Offer = () => {
 
   const offerText = [
-    {title: "Промоція у 2 Instagram Stories", text: "Розміщення інформації про компанію в 2 Instagram-stories на сторінці @best_lviv."},
+    {title: "Промоція у 1 Instagram Stories", text: "Розміщення інформації про компанію в 1 Instagram-stories на сторінці @best_lviv."},
     {title: "Фотозвіт та згадка про компанію в постівентному відео", text: "Після завершення змагань кожна компанія-партнер отримає звітність з усіма фотографіями компанії. Також логотип компанії з’явиться наприкінці відео, що створюється для підсумовування події та буде розміщене на Instagram-сторінці @best_lviv."},
     {title: "Логотип компанії на бренд-воллі", text: "Під час події буде розміщений великий банер з логотипами партнерів наших змагань."},
     {title: "Логотип на сайті події", text: "Розміщення логотипа компанії на офіційному сайті події."},
     {title: "Транслювання відеоролика на місці події", text: "На місці проведення змагань буде транслюватися відео Вашої компанії (до двох хвилин). Відео надає компанія."},
-    {title: "Розміщення банера на місці події", text: "Упродовж змагань Ви матимете змогу розмістити банер Вашої компанії на місці проведення події. Банер та стійку до нього надає компанія."}
   ]
 
   const [isTooltipVisible, setIsTooltipVisible] = useState(false);
@@ -22,13 +21,20 @@ const Offer = () => {
   return (
     <div className='mb-20 mt-20 lg:mt-40'>
       <div className="relative">
-        <h1 className="mb-20 md:mb-45 text-center text-3xl sm:text-[36px] md:text-[40px] lg:text-[45px] xl:text-[54px] font-bold text-bec">За Вашу продукцію ми надамо:</h1>
+        <h1 className="mb-25 md:mb-45 text-center text-2xl mx-auto 490px:mx-0 w-[250px] 490px:w-full 490px:text-3xl sm:text-[36px] md:text-[40px] lg:text-[45px] xl:text-[54px] font-bold text-bec">За Вашу продукцію ми надамо:</h1>
         <Image 
           width={30}
           height={30}
           alt='.'
           src="/images/offer.svg"
-          className='hidden lg:block w-full absolute -top-20 xl:-top-25 2xl:-top-30 3xl:-top-20 left-0 -z-10'
+          className='hidden lg:block w-full absolute -top-0 490px:-top-20 xl:-top-25 2xl:-top-30 3xl:-top-20 left-0 -z-10'
+        />
+        <Image 
+          width={10}
+          height={10}
+          alt='.'
+          src="/footer/offer.svg"
+          className='block 490px:hidden w-full absolute -top-7 left-0'
         />
       </div>
       <div className="
